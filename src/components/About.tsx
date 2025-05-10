@@ -87,14 +87,14 @@ const About: React.FC = () => {
           </div>
           
           {/* About Image */}
-          <div className="md:w-1/2 relative">
-            <div className="relative mx-auto w-full max-w-md">
+          <div className="relative mx-auto w-full max-w-md">
   <img 
     src={vishalPic} 
     alt="Vishal Kumar Roy" 
     className="w-full h-auto object-cover rounded-2xl shadow-xl" 
   />
 </div>
+
       
       {/* Scrolling Text */}
       <div className="w-full overflow-hidden mt-20">
