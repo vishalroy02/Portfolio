@@ -1,6 +1,7 @@
 import React from 'react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { Code, Laptop, Lightbulb } from 'lucide-react';
+import vishalPic from './vishal.png'; 
 
 const About: React.FC = () => {
   const headerAnimation = useScrollAnimation({ threshold: 0.1 });
@@ -91,8 +92,9 @@ const About: React.FC = () => {
               <div className="aspect-w-4 aspect-h-5 relative">
                 <div className="w-full h-full bg-gradient-to-br from-blue-600 to-purple-600 rounded-2xl overflow-hidden shadow-xl">
                  <img 
-  src="/src/components/vishal.png" 
+  src={vishalPic} 
   alt="Profile" 
+  className="w-full h-full object 
   className="w-full h-full object-cover mix-blend-overlay opacity-40" 
 />
 
