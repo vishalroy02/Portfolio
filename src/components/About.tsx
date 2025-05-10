@@ -91,7 +91,7 @@ const About: React.FC = () => {
               <div className="aspect-w-4 aspect-h-5 relative">
                 <div className="w-full h-full bg-gradient-to-br from-blue-600 to-purple-600 rounded-2xl overflow-hidden shadow-xl">
                  <img 
-  src="/src/components/vishal.jpg" 
+  src="/src/components/vishal.png" 
   alt="Profile" 
   className="w-full h-full object-cover mix-blend-overlay opacity-40" 
 />
