@@ -97,48 +97,15 @@ const About: React.FC = () => {
 
       
       {/* Scrolling Text */}
-      <div className="w-full overflow-hidden mt-20">
-        <div className="py-4 bg-blue-600 dark:bg-blue-800 text-white">
-          <div className="marquee-container">
-            <div className="marquee">
-              <span>PYTHON</span>
-              <span>•</span>
-              <span>JAVA</span>
-              <span>•</span>
-              <span>C</span>
-              <span>•</span>
-              <span>HTML</span>
-              <span>•</span>
-              <span>CSS</span>
-              <span>•</span>
-              <span>JAVASCRIPT</span>
-              <span>•</span>
-              <span>PROBLEM SOLVING</span>
-              <span>•</span>
-              <span>UI DESIGN</span>
-              <span>•</span>
-            </div>
-            <div className="marquee marquee2">
-              <span>PYTHON</span>
-              <span>•</span>
-              <span>JAVA</span>
-              <span>•</span>
-              <span>C</span>
-              <span>•</span>
-              <span>HTML</span>
-              <span>•</span>
-              <span>CSS</span>
-              <span>•</span>
-              <span>JAVASCRIPT</span>
-              <span>•</span>
-              <span>PROBLEM SOLVING</span>
-              <span>•</span>
-              <span>UI DESIGN</span>
-              <span>•</span>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div className="marquee-container">
+  <div className="marquee">
+    <span>PYTHON • JAVA • C • HTML • CSS • JAVASCRIPT • PROBLEM SOLVING • UI DESIGN •</span>
+  </div>
+  <div className="marquee2">
+    <span>PYTHON • JAVA • C • HTML • CSS • JAVASCRIPT • PROBLEM SOLVING • UI DESIGN •</span>
+  </div>
+</div>
+
     </section>
   );
 };
