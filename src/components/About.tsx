@@ -88,19 +88,14 @@ const About: React.FC = () => {
           
           {/* About Image */}
           <div className="md:w-1/2 relative">
-            <div className="relative w-full h-full rounded-2xl overflow-hidden shadow-xl">
+            <div className="relative mx-auto w-full max-w-md">
   <img 
     src={vishalPic} 
-    alt="Profile" 
-    className="w-full h-full object-cover opacity-90" 
+    alt="Vishal Kumar Roy" 
+    className="w-full h-auto object-cover rounded-2xl shadow-xl" 
   />
-  <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-purple-600 opacity-30"></div>
-  <div className="absolute inset-0 flex items-center justify-center">
-    <h3 className="text-3xl md:text-4xl font-bold text-white text-center">
-      CS Student<br />& Developer
-    </h3>
-  </div>
 </div>
+
 
               
               {/* Floating Elements */}
