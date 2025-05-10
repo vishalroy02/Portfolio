@@ -94,7 +94,6 @@ const About: React.FC = () => {
                  <img 
   src={vishalPic} 
   alt="Profile" 
-  className="w-full h-full object 
   className="w-full h-full object-cover mix-blend-overlay opacity-40" 
 />
 
