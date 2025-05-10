@@ -94,16 +94,8 @@ const About: React.FC = () => {
                  <img 
   src={vishalPic} 
   alt="Profile" 
-   className="w-full h-full object 
+    className="w-full h-full object-cover mix-blend-overlay opacity-40" 
 />
-
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <h3 className="text-3xl md:text-4xl font-bold text-white">
-                      CS Student<br />& Developer
-                    </h3>
-                  </div>
-                </div>
-              </div>
               
               {/* Floating Elements */}
               <div className="absolute -top-4 -right-4 w-16 h-16 bg-yellow-500 rounded-lg rotate-12 animate-float-slow opacity-80"></div>
