@@ -95,16 +95,6 @@ const About: React.FC = () => {
     className="w-full h-auto object-cover rounded-2xl shadow-xl" 
   />
 </div>
-
-
-              
-              {/* Floating Elements */}
-              <div className="absolute -top-4 -right-4 w-16 h-16 bg-yellow-500 rounded-lg rotate-12 animate-float-slow opacity-80"></div>
-              <div className="absolute -bottom-4 -left-4 w-12 h-12 bg-purple-500 rounded-full animate-float opacity-80"></div>
-            </div>
-          </div>
-        </div>
-      </div>
       
       {/* Scrolling Text */}
       <div className="w-full overflow-hidden mt-20">
