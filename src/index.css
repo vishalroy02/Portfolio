@@ -65,55 +65,36 @@ body {
 
 @keyframes marquee {
   0% {
-    transform: translateX(0);
+    transform: translateX(100%);
   }
   100% {
     transform: translateX(-100%);
   }
 }
 
-.animate-float {
-  animation: float 6s ease-in-out infinite;
-}
-
-.animate-float-slow {
-  animation: float-slow 8s ease-in-out infinite;
-}
-
-.animate-blink {
-  animation: blink 1s step-end infinite;
-}
-
-@keyframes blink {
-  0%, 100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-}
-
-/* Scrolling marquee */
 .marquee-container {
   width: 100%;
   overflow: hidden;
-  display: flex;
   position: relative;
+  display: flex;
 }
 
-.marquee {
+.marquee, .marquee2 {
+  display: inline-block;
   white-space: nowrap;
   font-size: 1.5rem;
   font-weight: 700;
-  display: flex;
   animation: marquee 30s linear infinite;
 }
 
 .marquee2 {
-  animation-delay: -15s;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  animation-delay: 15s;
 }
 
-.marquee span {
+.marquee span, .marquee2 span {
   display: inline-block;
   padding: 0 1.5rem;
 }
