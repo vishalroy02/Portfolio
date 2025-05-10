@@ -90,11 +90,12 @@ const About: React.FC = () => {
             <div className="relative mx-auto w-full max-w-md">
               <div className="aspect-w-4 aspect-h-5 relative">
                 <div className="w-full h-full bg-gradient-to-br from-blue-600 to-purple-600 rounded-2xl overflow-hidden shadow-xl">
-                  <img 
-                    src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                    alt="Profile" 
-                    className="w-full h-full object-cover mix-blend-overlay opacity-40"
-                  />
+                 <img 
+  src="/src/components/vishal.jpg" 
+  alt="Profile" 
+  className="w-full h-full object-cover mix-blend-overlay opacity-40" 
+/>
+
                   <div className="absolute inset-0 flex items-center justify-center">
                     <h3 className="text-3xl md:text-4xl font-bold text-white">
                       CS Student<br />& Developer
