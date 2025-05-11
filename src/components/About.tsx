@@ -96,15 +96,13 @@ const About: React.FC = () => {
 </div>
 
       
-      {/* Scrolling Text */}
-      <div className="marquee-container">
+     {/* Scrolling Text */}
+<div className="marquee-container">
   <div className="marquee">
     <span>PYTHON • JAVA • C • HTML • CSS • JAVASCRIPT • PROBLEM SOLVING • UI DESIGN •</span>
   </div>
 </div>
 
-    </section>
-  );
 };
 
 export default About;
