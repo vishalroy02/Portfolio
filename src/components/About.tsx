@@ -101,9 +101,6 @@ const About: React.FC = () => {
   <div className="marquee">
     <span>PYTHON • JAVA • C • HTML • CSS • JAVASCRIPT • PROBLEM SOLVING • UI DESIGN •</span>
   </div>
-  <div className="marquee2">
-    <span>PYTHON • JAVA • C • HTML • CSS • JAVASCRIPT • PROBLEM SOLVING • UI DESIGN •</span>
-  </div>
 </div>
 
     </section>
