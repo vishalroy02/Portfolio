@@ -84,25 +84,28 @@ const About: React.FC = () => {
                 <p className="text-gray-600 dark:text-gray-400 text-center text-sm">Finding creative solutions to problems</p>
               </div>
             </div>
-          </div>
-          
+                   </div>
+
           {/* About Image */}
           <div className="relative mx-auto w-full max-w-md">
-  <img 
-    src={vishalPic} 
-    alt="Vishal Kumar Roy" 
-    className="w-full h-auto object-cover rounded-2xl shadow-xl" 
-  />
-</div>
+            <img 
+              src={vishalPic} 
+              alt="Vishal Kumar Roy" 
+              className="w-full h-auto object-cover rounded-2xl shadow-xl" 
+            />
+          </div>
+        </div>
 
-      
-     {/* Scrolling Text */}
-<div className="marquee-container">
-  <div className="marquee">
-    <span>PYTHON • JAVA • C • HTML • CSS • JAVASCRIPT • PROBLEM SOLVING • UI DESIGN •</span>
-  </div>
-</div>
-
+        {/* Scrolling Text */}
+        <div className="marquee-container mt-10">
+          <div className="marquee">
+            <span>PYTHON • JAVA • C • HTML • CSS • JAVASCRIPT • PROBLEM SOLVING • UI DESIGN •</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default About;
+
